@@ -1,0 +1,7 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "env": {
+    "GOPROXY": "https://proxy.golang.org,https://river:{{ secrets.RIVER_PRO_SECRET }}@riverqueue.com/goproxy,direct",
+    "GONOSUMDB": "riverqueue.com/riverpro"
+  }
+}
